@@ -16,8 +16,10 @@ use App\Http\Controllers\ProductController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home_user');
 });
+
+// Route::get('/user', 'user')->name('user_view');
 
 Route::controller(AuthController::class)->group(function () {
     Route::get('register', 'register')->name('register');
