@@ -9,14 +9,14 @@ class Product extends Model
 {
     use HasFactory;
   
-    // protected $guarded = [];
+    protected $guarded = [];
 
-    protected $fillable = [
-        'NamaProduk',
-        'JenisTanaman',
-        'image',
-        'Deskripsi',
-        'stock',
-        'harga',
-    ];
+    // protected $fillable = [
+    //     'NamaProduk',
+    //     'JenisTanaman',
+    //     'image',
+    //     'Deskripsi',
+    //     'stock',
+    //     'harga',
+    // ];
 }

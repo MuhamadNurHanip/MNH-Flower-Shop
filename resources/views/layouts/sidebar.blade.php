@@ -20,7 +20,7 @@
 
     <li class="nav-item">
         <a class="nav-link" href="{{ route('products') }}">
-        <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+            <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
             <span>Data Produk</span></a>
     </li>
 
