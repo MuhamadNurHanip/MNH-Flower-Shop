@@ -35,7 +35,7 @@
                     </form>
                 </div>
                 <div class="col-auto">
-                    <form action="" method="get">
+                    <form action="{{url('/user')}}" method="get">
                         <button type="submit" class="btn btn-secondary">Pengunjung</button>
                     </form>
                 </div>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\Product;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -73,6 +74,8 @@ class AuthController extends Controller
 
     public function user()
     {
-        return view('user_view');
+        $product = Product::get();
+
+        return view('user_view', compact('product'));
     }
 }
